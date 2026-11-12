@@ -94,3 +94,40 @@
     font-size:18px !important;
   }
 }
+
+/* Brand identity and contact cards on the homepage. */
+.brand-logo{width:92px;height:84px;object-fit:contain;border:0;border-radius:0;background:#fff;filter:none}
+.site-footer .brand-logo{width:100px;height:100px}
+.brand-card-showcase{padding:64px 9vw;display:grid;grid-template-columns:.7fr 1.3fr;gap:8%;align-items:center}
+.qr-showcase{background:#eeece6}
+.brand-card-copy h2{font:500 clamp(34px,4.5vw,50px)/1.12 var(--serif);margin:14px 0}
+.brand-card-copy h2 em{color:#a98a5b;font-weight:500}
+.brand-card-copy>p:not(.eyebrow){font-size:12px;line-height:1.8;color:#6e6a62;max-width:350px;margin:0 0 22px}
+.qr-card-frame,.visiting-card-frame{margin:0;min-width:0;display:flex;align-items:center;justify-content:center}
+.qr-card-frame img{display:block;width:min(100%,760px);height:auto;object-fit:contain;box-shadow:0 18px 48px #16161420}
+.visiting-showcase{grid-template-columns:1.2fr .8fr;background:#f8f6f1}
+.visiting-card-frame img{display:block;width:100%;height:auto;object-fit:contain;box-shadow:0 18px 42px #16161424}
+@media(max-width:980px){.brand-logo{width:78px;height:72px}.site-footer .brand-logo{width:90px;height:90px}.brand-card-showcase{padding:55px 7vw;gap:5%}}
+@media(max-width:760px){.brand-logo{width:65px;height:58px}.site-footer .brand-logo{width:80px;height:80px}.brand-card-showcase,.visiting-showcase{grid-template-columns:1fr;gap:25px;padding:48px 6vw}.qr-showcase .brand-card-copy{order:0}.qr-card-frame{order:1}.brand-card-copy h2{font-size:39px}.visiting-card-frame{order:1}.visiting-showcase .brand-card-copy{order:0}}
+
+/* Keep the full business name beside the logo throughout the site. */
+.brand{display:flex;align-items:center;gap:10px;min-width:0}
+.brand-logo{width:62px;height:58px;flex:none;object-fit:contain;background:#fff;border:0;border-radius:0;filter:none}
+.brand-name{display:flex;flex-direction:column;justify-content:center;min-width:0;white-space:nowrap}
+.brand-name>span{font-family:var(--sans);font-size:15px!important;font-weight:700!important;letter-spacing:1.3px!important;line-height:1.05!important;color:var(--ink)!important}
+.brand-name i{font-size:9px!important;font-weight:600!important;letter-spacing:1.05px!important;color:var(--gold)!important;margin-top:4px!important}
+.site-footer .brand-logo{width:68px;height:68px}
+.site-footer .brand-name>span{font-size:16px!important;color:#f7f4ed!important}
+.site-footer .brand-name i{font-size:9px!important;color:#d1b77f!important}
+.float-actions{right:18px;bottom:18px;display:flex;flex-direction:column;align-items:stretch;gap:9px}
+.float-button{min-width:126px;min-height:44px;padding:11px 15px;border-radius:28px;justify-content:flex-start}
+@media(max-width:980px){.brand-logo{width:56px;height:54px}.brand-name>span{font-size:13px!important;letter-spacing:.85px!important}.brand-name i{font-size:8px!important;letter-spacing:.7px!important}.site-footer .brand-logo{width:62px;height:62px}}
+@media(max-width:760px){.brand{gap:7px}.brand-logo{width:48px;height:46px}.brand-name>span{font-size:11px!important;letter-spacing:.55px!important}.brand-name i{font-size:7px!important;letter-spacing:.5px!important;margin-top:3px!important}.site-footer .brand-logo{width:56px;height:56px}.site-footer .brand-name>span{font-size:14px!important}.float-actions{right:12px;bottom:14px;flex-direction:column;align-items:stretch;gap:8px}.float-button{width:auto;height:42px;min-width:112px;min-height:42px;padding:10px 13px;border-radius:24px;gap:8px}.float-button span{display:inline;font-size:9px}}
+@media(max-width:760px){
+  .brand-name>span{font-size:14px!important;letter-spacing:.8px!important}
+  .brand-name i{font-size:9px!important;letter-spacing:.65px!important}
+}
+@media(max-width:760px){
+  .brand-name>span{font-size:16px!important;letter-spacing:.65px!important}
+  .brand-name i{font-size:10px!important;letter-spacing:.45px!important}
+}
