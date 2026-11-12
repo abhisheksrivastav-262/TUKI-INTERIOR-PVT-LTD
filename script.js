@@ -18,7 +18,7 @@ const projects = [
   {file:'living-room-warm.jpg',title:'An inviting family room',category:'living',label:'LIVING'},
   {file:'living-room-yellow.jpg',title:'A little sunshine at home',category:'living',label:'LIVING'},
   {file:'bedroom-suite.jpg',title:'A restful retreat',category:'bedroom',label:'BEDROOM'},
-  {file:'living-room-jaipur.jpg',title:'A contemporary Jaipur home',category:'living',label:'LIVING'},
+  {file:'living-room-jaipur.jpg',title:'A contemporary modern home',category:'living',label:'LIVING'},
   {file:'living-room-marble.jpg',title:'Stone, light and elegant details',category:'living',label:'LIVING'},
   {file:'bedroom-marble.jpg',title:'A calm and considered bedroom',category:'bedroom',label:'BEDROOM'},
   {file:'bedroom-wood.jpg',title:'Timber tones for slow mornings',category:'bedroom',label:'BEDROOM'},
